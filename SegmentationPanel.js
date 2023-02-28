@@ -51,6 +51,16 @@ const SegmentationPanel = ({
   onSelectedSegmentationChange,
   activeContexts = [],
   contexts = {},
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
   servicesManager,
 }) => {
   const isVTK = () => activeContexts.includes(contexts.VTK);
